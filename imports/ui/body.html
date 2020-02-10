@@ -34,10 +34,10 @@
 
     <nav class="links" style="--items: 5;">
       <a href="/LM">Ligne De Mouvement</a>
-      <a href="#">Produits</a>
-      <a href="#">WareHouses</a>
-      <a href="#">Options</a>
-      <a href="#">Contact</a>
+      <a href="/PO">Produits</a>
+      <a href="/WH">WareHouses</a>
+      <a href="/OP">Options</a>
+      <a href="/CO">Contact</a>
       <span class="line"></span>
     </nav>
     <h1>User : test</h1>
@@ -48,14 +48,81 @@
   <div class="navbar">
 
     <nav class="links" style="--items: 5;">
-      <a href="#">Produits</a>
-      <a href="#">WareHouses</a>
-      <a href="#">Options</a>
-      <a href="#">Contact</a>
+      <a href="/PO">Produits</a>
+      <a href="/WH">WareHouses</a>
+      <a href="/OP">Options</a>
+      <a href="/CO">Contact</a>
       <a href="/DashBoard">Retour</a>
       <span class="line"></span>
     </nav>
     <center><h1>Ligne De Mouvement</h1></center>
   </div>
 
-  </template>
+</template>
+
+
+<template name ="PO">
+  <div class="navbar">
+
+    <nav class="links" style="--items: 5;">
+      <a href="/LM">Ligne De Mouvement</a>
+      <a href="/WH">WareHouses</a>
+      <a href="/OP">Options</a>
+      <a href="/CO">Contact</a>
+      <a href="/DashBoard">Retour</a>
+      <span class="line"></span>
+    </nav>
+    <center><h1>Produits</h1></center>
+  </div>
+
+</template>
+
+<template name ="WH">
+  <div class="navbar">
+
+    <nav class="links" style="--items: 5;">
+      <a href="/LM">Ligne De Mouvement</a>
+      <a href="/PO">Produits</a>
+      <a href="/OP">Options</a>
+      <a href="/CO">Contact</a>
+      <a href="/DashBoard">Retour</a>
+      <span class="line"></span>
+    </nav>
+    <center><h1>WareHouses</h1></center>
+  </div>
+
+</template>
+
+
+<template name ="OP">
+  <div class="navbar">
+
+    <nav class="links" style="--items: 5;">
+      <a href="/LM">Ligne De Mouvement</a>
+      <a href="/PO">Produits</a>
+      <a href="/WH">WareHouses</a>
+      <a href="/CO">Contact</a>
+      <a href="/DashBoard">Retour</a>
+      <span class="line"></span>
+    </nav>
+    <center><h1>Options</h1></center>
+  </div>
+
+</template>
+
+
+<template name ="CO">
+  <div class="navbar">
+
+    <nav class="links" style="--items: 5;">
+      <a href="/LM">Ligne De Mouvement</a>
+      <a href="/PO">Produits</a>
+      <a href="/WH">WareHouses</a>
+      <a href="/OP">Options</a>
+      <a href="/DashBoard">Retour</a>
+      <span class="line"></span>
+    </nav>
+    <center><h1>Contact</h1></center>
+  </div>
+
+</template>
