@@ -8,3 +8,7 @@ Router.route('/', function () {
 Router.route('/DashBoard', function () {
   this.render('navbar');
 });
+
+Router.route('/LM', function () {
+  this.render('LM');
+});
